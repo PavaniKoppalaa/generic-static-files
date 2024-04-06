@@ -1,0 +1,15 @@
+h1{
+    color:white;
+    background-color:black;
+
+}
+span{
+    color:red;
+}
+img{
+    border-radius: 10px;
+    margin:12px;
+}
+img-hover{
+    width:200px;
+}

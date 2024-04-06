@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='{% static "css/c1.css" %}'>
+</head>
+<body bgcolor="skyblue">
+    <center>
+        <h1>These are statc files we are uploading <span>Images</span>here</h1>
+        <img src='{% static "images/flower.jpeg" %}' height="300px",width="300px">
+        <img src='{% static "images/sky.jpeg" %}' height="300px",width="300px">
+
+        <a href='{% url "styles" %}'>Click here</a>
+
+    </center>
+</body>
+</html>
